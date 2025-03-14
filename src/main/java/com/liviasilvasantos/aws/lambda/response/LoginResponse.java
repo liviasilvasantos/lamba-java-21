@@ -1,4 +1,4 @@
 package com.liviasilvasantos.aws.lambda.response;
 
-public record LoginResponse() {
+public record LoginResponse(boolean isAuthorized) {
 }
